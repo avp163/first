@@ -1,0 +1,83 @@
+<html>
+    <body>
+        <form>
+            <p>say name</p>
+            <input type="text"/>
+            <p>say password</p>
+            <input type="password"/>
+        </form>
+
+        <form>
+            <p>say fio</p>
+            f:<input type="text" name="firstname"/><br />
+            i:<input type="text" name="lastname"/><br />
+            o:<input type="text" name="lastname"/>
+        </form>
+
+        <form>
+            inter password:<input type="password" name="pass"/>
+        </form>
+
+     <form>
+         <p>how are you?</p>
+         <input type="checkbox" name="space" value="1"/>
+         im fine<br />
+         <input type="checkbox" name="space" value="2"/>
+         good<br />
+         <input type="checkbox" name="space" value="3"/>
+         bad<br />
+     </form>
+
+     <form>
+         <p>vash pol</p>
+             <input type="radio" name="s" value="m"/>Man<br />
+             <input type="radio" name="s" value="f"/>Girl
+         </form>
+
+         <form name="input" action="form.php" method="get">
+             inter name:<input type="text" name="name"/>
+             <input type="submit" value="otpravit"/>
+         </form>
+
+         <p>viberite pol</p>
+         <form>
+             <select name="sex">
+             <option value="m">Man</option>
+             <option value="f">Girl</option>
+             </select>
+         </form>
+
+         <form>
+             <fieldset>
+                 <legend>dannie o polzovatele:</legend>
+                 f:<br><input type="text" name="firstname"/><br>
+                 i:<br><input type="text" name="lastname"/><br>
+                 o:<br><input type="text" name="lastname"/><br>
+                 <p>ukazite vash pol</p>
+                 <input type="radio" name="s" value="m"/>Man
+                 <input type="radio" name="s" value="f"/>Girl
+             </fieldset>
+             <fieldset>
+             <legend>Anketa:</legend>
+             <p>how are you?</p>
+         <input type="checkbox" name="space" value="1"/>
+         im fine
+         <input type="checkbox" name="space" value="2"/>
+         good
+         <input type="checkbox" name="space" value="3"/>
+         bad
+             </fieldset>
+         </form>
+
+         <form>
+             <fieldset>
+                 <legend>pole avtorizacii</legend>
+                 login:<br /><input type="text" name="log"/><br />
+                 password:<br /><input type="password" name="pass"/><br />
+                 <input type="checkbox" name="session" value="1"/>
+                 dlinnaya session
+                 <input type="checkbox" name="session" value="2"/>
+                 korotkaya session
+                 <input type="button" value="avtorizovatsi"/>
+             </fieldset>
+         </form>
